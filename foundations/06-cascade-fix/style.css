@@ -1,17 +1,16 @@
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.small-para {
+p.small-para {
   font-size: 12px;
 }
-
 .para {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-size: 20px;
@@ -24,12 +23,14 @@
   font-size: 20px;
 }
 
-.child {
-  color: red;
-  font-size: 14px;
-}
-
-div.text {
+div {
   color: green;
   font-size: 28px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text.child {
+  color: red;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
